@@ -1,0 +1,21 @@
+# Video files (large)
+*.mp4
+*.avi
+*.mkv
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts (do not commit env or local paths)
+build/
+*.exe
+*.o
+*.obj
+
+# Optional: ignore model weights if large; uncomment if needed
+# *.pt
+# openvino_models/*/
